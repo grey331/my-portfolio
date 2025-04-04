@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRACE JOYCE MUTHONI</title>
+    <style>
+         
+        /* The top bar nav and header */
+        body .topbar {
+            display: block;
+            background-color: rgba(100, 59, 59, 0.3);
+        }
+
+        
+        body .topbar .header {
+            display: flex;
+            justify-content: normal;
+            padding: 20;
+        }
+
+        
+        body .topbar .header a img {
+
+            width: 80;
+            box-shadow: 90%;
+        }
+
+        
+        body .topbar .header h1 {
+            font-size: xx-large;
+            font-weight: 900;
+            font-style: oblique;
+            font-family: sans-serif;
+        }
+
+        
+        body .topbar .navigation {
+            display: flex;
+            gap: 10%;
+        }
+
+        body .topbar .navigation a {
+            text-decoration: none;
+            font-size: large;
+            font-weight: 800;
+        }
+
+
+        /* main section */
+        body {
+           background: #9896af;
+
+        }
+
+
+        .footer{
+            background-color: rgba(60, 60, 241, 0.3);
+            width: 100%;
+            
+        }
+
+       
+        .image{
+            border-radius: 70%;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            margin-top: 5px;
+            resize: vertical; /* Allows vertical resizing only */}
+        
+            
+    
+    </style>
+</head>
+<body>
+     <!-- The top bar nav and header -->
+     <div class="topbar">
+        <!-- header -->
+        <div class="header">
+            <a href="#">
+                <img src="gracym.jpg" alt="grace"width="100">
+            </a>
+            <h1>GRACE JOYCE MUTHONI KIMARI</h1>
+           
+        </div>
+        <!-- navigation -->
+        <nav class="navigation">
+            <a href="portfolio.html">HOME</a>
+            <a href="projects.html">PROJECTS</a>
+            <a href="contact.html">CONTACT</a>
+
+        </nav>
+    </div>
+
+    <!-- main section -->
+    <form action="submit-form.php" method="POST">
+        <div>
+<br><br>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <br><br>
+        <div>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+    <br><br>
+    <div>
+        <label for="phone">mobile number:</label>
+            <input type="text" id="phone" name="phone" >
+    </div>
+    <br><br>
+    
+    </div>
+    <br>
+    <br>
+    <div>
+        <label for="message">Any additional feedback </label>
+        <textarea id="message" name="message"></textarea>
+    </div>
+
+
+    <input type="submit" value="Send feedback">
+</form>
+<!-- this is the footer -->
+<footer class="footer">
+    <H3><U><a name="CONTACT INFORMATION">CONTACT INFORMATION</a> </U></H3>
+<P>
+    EMAIL:<a href mail to:joycegrace331@gmail.com>joycegrace331@gmail.com</a><br><br>
+    CONTACT: 0710274221
+</P>
+    <P>
+        &COPY;2025 GRACE JOYCE MUTHONI PORTFOLIO.ALL RIGHTS RESERVED
+    </P>
+    <P><A href="#">privacy policy</A>  |  <a href="#">Terms of service</a> </a></P>
+</footer>
+</body>
+</html>
